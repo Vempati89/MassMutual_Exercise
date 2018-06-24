@@ -8,8 +8,8 @@ Before do |scenario|
   # DataMagic.load_for_scenario(scenario)
   @browser = Watir::Browser.new :chrome
   @browser.window.maximize
-  # @browser.goto 'https://www.exercise1.com/values'
-  @browser.goto 'https://www.quora.com/'
+  @browser.goto 'https://www.exercise1.com/values'
+  # @browser.goto 'https://www.quora.com/'
 end
 
 AfterStep do

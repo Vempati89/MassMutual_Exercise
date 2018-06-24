@@ -1,18 +1,18 @@
 class Exercise_values
   include PageObject
 
-  text_field(:value_1, label:'lbl_val_1')
-  text_field(:value_2, label:'lbl_val_2')
-  text_field(:value_3, label:'lbl_val_3')
-  text_field(:value_4, label:'lbl_val_4')
-  text_field(:value_5, label:'lbl_val_5')
-  text_field(:total_bal, label:'lbl_ttl_val')
-  text_field(:amount_1, text:'txt_val_1')
-  text_field(:amount_2, text:'txt_val_2')
-  text_field(:amount_4, text:'txt_val_4')
-  text_field(:amount_5, text:'txt_val_5')
-  text_field(:amount_6, text:'txt_val_6')
-  text_field(:ttl_value, text:'txt_ttl_val')
+  label(:value_1, id:'lbl_val_1')
+  label(:value_2, id:'lbl_val_2')
+  label(:value_3, id:'lbl_val_3')
+  label(:value_4, id:'lbl_val_4')
+  label(:value_5, id:'lbl_val_5')
+  label(:total_bal, id:'lbl_ttl_val')
+  text_field(:amount_1, id:'txt_val_1')
+  text_field(:amount_2, id:'txt_val_2')
+  text_field(:amount_4, id:'txt_val_4')
+  text_field(:amount_5, id:'txt_val_5')
+  text_field(:amount_6, id:'txt_val_6')
+  text_field(:ttl_value, id:'txt_ttl_val')
 
 
   def balance (a)
